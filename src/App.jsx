@@ -10,9 +10,12 @@ function App() {
     <>
       <Nav></Nav>
       {/* <DaisyNav></DaisyNav> */}
-      <Price></Price>
+      
       <div className='ml-6 my-10'>
           <LineCharts></LineCharts>
+      </div>
+      <div className='mb-20'>
+          <Price></Price>
       </div>
     </>
   )
