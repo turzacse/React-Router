@@ -22,6 +22,8 @@ const LineCharts = () => {
               <Line type="monotone" dataKey="mathMarks" stroke="red" />
 
               <Line type="monotone" dataKey="physicsMarks" stroke="green" />
+
+              <Line type="monotone" dataKey="chemistryMarks" stroke="gray" />
               <CartesianGrid></CartesianGrid>
               <XAxis dataKey='name'></XAxis>
               <YAxis></YAxis>
